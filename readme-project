@@ -1,0 +1,8 @@
+This Project is a weather app made with react and uses a api https://api.openweathermap.org
+
+features 
+    the search bar on 800p goes away from the top
+    there are 4 diffent imgs 2 for 1080p amd the other 2 is for 800p and there is 2 cold imgs and 2 warm imgs
+
+notes 
+    This was just to test with a api with react to make a simple weather app
