@@ -21,6 +21,9 @@ function App() {
         });
     }
   }
+  let fahrenheit = (temp) => {
+    return Math.round((temp * 9) / 5 + 32);
+  };
 
   //helps tracks the date and time
   const dateBuilder = (d) => {
@@ -56,7 +59,7 @@ function App() {
           </div>
           <div className="weather-box">
             <div className="temp">
-              {Math.round(weather.main.temp)}°c
+              {<span>{fahrenheit(weather.main.temp)}°f</span>}
             </div>
             <div className="weather">{weather.weather[0].main}</div>
           </div>
